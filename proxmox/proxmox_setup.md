@@ -40,7 +40,7 @@ When going through the install process Proxmox will ask you to create a password
 
 
 <h4 id="example-1-2">Example 1.2 - First Boot Terminal</h4>
-Proxmox does not have a Gui interface when launching on the device Proxmox was installed on, instead it launches straight into the terminal. When loging in type the username which is "root" if you haven't changed it enter, and then type the password you set when first installing Proxmox. If everything was configured correctly you should be free to roam through the system through the command line. 
+Proxmox does not have a GUI when launching on the device it was installed on. Instead, it boots directly into the terminal. When logging in, type the username "root" and press Enter. Then, enter the password you created during the Proxmox installation. If everything was configured correctly, you should now have access to the system through the command line.
 
 <img src="/proxmox/img/terminal_prox.png" alt="Once proxmox is done installing" width="500" height="450">   
 
