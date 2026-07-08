@@ -38,10 +38,11 @@ When going through the install process Proxmox will ask you to create a password
 <h4 id="example-1-1">Example 1.1 - Proxmox Installation Agreement</h4>
 <img src="/proxmox/img/agreement_prox.png" alt="Download of proxmox to hard drive" width="500" height="450">   
 
+## Proxmox First Boot
 
-<h4 id="example-1-2">Example 1.2 - First Boot Terminal</h4>
 Proxmox does not have a GUI when launching on the device it was installed on. Instead, it boots directly into the terminal. When logging in, type the username "root" and press Enter. Then, enter the password you created during the Proxmox installation. If everything was configured correctly, you should now have access to the system through the command line.
 
+<h4 id="example-1-2">Example 1.2 - First Boot Terminal</h4>
 <img src="/proxmox/img/terminal_prox.png" alt="Once proxmox is done installing" width="500" height="450">   
 
 Proxmox does have a web interface that you can connect through on another device. As seen in [Example 1.2](#example-1-2) The welcome page for Proxmox should show something like this **https://"your ip address":8006/** where port 8006 is the default TCP protocol that Proxmox uses to connect. When connecting to your webpage through your prefered web browser you should see something like this [Example 1.3](#example-1-3) 
