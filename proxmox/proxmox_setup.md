@@ -48,12 +48,13 @@ Proxmox does not have a GUI when launching on the device it was installed on. In
 
 Proxmox does have a web interface that you can connect through on another device. As seen in [Example 1.2](#example-1-2) The welcome page for Proxmox should show something like this **https://"your ip address":8006/** where port 8006 is the default TCP protocol that Proxmox uses to connect. When connecting to your webpage through your preferred web browser you should see something like this [Example 1.3](#example-1-3) 
 
-**Warning** Make sure that your Proxmox server and the device you are using to connect to the web page are on the same network and subnet. If not your device will not be able to connect to the web interface. If you need to troubleshoot and find out what subnet and ip address your device is using on the network use these commands in your terminal depending on what OS system you are using.
+>[!WARNING] 
+>Make sure that your Proxmox server and the device you are using to connect to the web page are on the same network and subnet. If not your device will not be able to connect to the web interface. If you need to troubleshoot and find out what subnet and ip address your device is using on the network use these commands in your terminal depending on what OS system you are using.
 - Windows: ipconfig
 - Linux: ip -a
 - Mac: curl ifconfig.me
   
-If your Proxmox server is on a different subnet than the rest of your network, you will need to update its network configuration.
+If your Proxmox server is on a different subnet compared to the rest of your network, you will need to update its network configuration.
 
 Example:
 
