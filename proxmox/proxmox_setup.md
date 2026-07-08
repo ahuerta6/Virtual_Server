@@ -29,7 +29,7 @@ For demonstration purposes, I installed Proxmox inside an [Oracle VirtualBox](ht
 
 As shown in [Example 1.1](#example-1-1), I created a virtual machine with a **300 GB** virtual disk to demonstrate the installation process. 
 
-The actual server is installed directly on its own dedicated hard drive.
+The actual server is installed directly on its own dedicated hard drive. Installing Proxmox on a hard drive requires going into your devices BIOS and changing the priority list so that the USB with the Proxmox install takes first priority when your computer first starts up. If this step is not done the install process for Proxmox can not be started.
 
 > [!WARNING]
 > When installing Proxmox make sure you are selecting the correct destination of where you want to install it because Proxmox will delete any and all data that is being installed on the selected location.
