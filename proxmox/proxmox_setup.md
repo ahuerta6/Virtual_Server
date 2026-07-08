@@ -25,11 +25,11 @@ I personally recommend **Ventoy** because it allows multiple bootable ISO files 
 
 ## Installing Proxmox VE
 
-For demonstration purposes, I installed Proxmox inside an [Oracle VirtualBox](https://www.virtualbox.org/) virtual machine. If you are just getting started, you do not need a USB drive. You can boot the Proxmox ISO directly in VirtualBox for testing and learning purposes. 
+For demonstration purposes, I installed Proxmox inside an [Oracle VirtualBox](https://www.virtualbox.org/) virtual machine. If you are just getting started and don't want to dedicate a hard drive or SSD to Proxmox this is a viable option. You can boot the Proxmox ISO directly in VirtualBox for testing and learning purposes. 
 
-As shown in [Example 1.1](#example-1-1), I created a virtual machine with a **300 GB** virtual disk to demonstrate the installation process. 
+As shown in [Example 1.1](#example-1-1), I created a virtual machine with a **300 GB** virtual disk to demonstrate what the install screen should look like. 
 
-The actual server is installed directly on its own dedicated hard drive. Installing Proxmox on a hard drive requires going into your devices BIOS and changing the priority list so that the USB with the Proxmox install takes first priority when your computer first starts up. If this step is not done the install process for Proxmox can not be started.
+The server that I will actually be using is installed directly on its own dedicated hard drive. Installing Proxmox on a hard drive requires going into your devices **BIOS** and changing the priority list so that the USB with the Proxmox install takes **first priority** when your computer **first starts up**. If this step is not done the install process for Proxmox can not be started.
 
 > [!WARNING]
 > When installing Proxmox make sure you are selecting the correct destination of where you want to install it because Proxmox will delete any and all data that is being installed on the selected location.
