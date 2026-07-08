@@ -82,9 +82,21 @@ Choose an unused IP address that matches your network's subnet, then update both
 <h4 id="example-1-3">Example 1.3 - Web Interface Login</h4>
 <img src="/proxmox/img/login_prox.png" alt="Description" width="500" height="450">   
 
-Uploading ISO files onto your proxmox server is fairly simple. In order to do so you must navigate to the local storage tab and click ISO image tab. It should go something like this:
-local (node name)> ISO images> Upload
-Proxmox allows you two options to insert your desired ISO image into the server. Either uploading from your device or by downloading the file from the source through the url. An example can be seen in [Example 1.4](#example-1-4)
+## Uploading ISO Images
+
+Uploading ISO images to your Proxmox server is straightforward. To begin, navigate to the ISO Images section under your local storage.
+
+Navigation Path:
+
+local (node name) → ISO Images → Upload
+
+Proxmox provides two methods for adding ISO images to your server:
+
+Upload from your local device – Select an ISO file stored on your computer.
+Download from a URL – Provide the direct download link, and Proxmox will retrieve the ISO for you.
+
+Both methods are shown in [Example 1.4](#example-1-4)
+
 <h4 id="example-1-4">Example 1.4 - Uploading an ISO</h4>
 <img src="/proxmox/img/upload_iso.png" alt="Description" width="500" height="450">   
 
