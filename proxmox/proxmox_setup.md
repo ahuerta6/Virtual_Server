@@ -34,7 +34,7 @@ The server that I will actually be using is installed directly on its own dedica
 > [!WARNING]
 > When installing Proxmox make sure you are selecting the correct destination of where you want to install it because Proxmox will delete any and all data that is being installed on the selected location.
 
-When going through the install process Proxmox will ask you to create a password for the root user account. Be sure to remember this password because thats how you will be able to log into the proxmox server console and web page. The default user account is named "root" which can be be changed later if you decide to. Also it will ask you to create a domain name for your Proxmox server for my example I set my domain name to uno. Setting your domain name shouldn't affect how you login.
+When going through the install process Proxmox will ask you to create a password for the root user account. Be sure to remember this password because thats how you will be able to log into the proxmox server console and web page. The default user account is named "root" which can be be changed later if you decide to. Also it will ask you to create a domain name for your Proxmox server for my example I set my domain name to "uno". Setting your domain name shouldn't affect how you login.
 
 <h4 id="example-1-1">Example 1.1 - Proxmox Installation Agreement</h4>
 <img src="/proxmox/img/agreement_prox.png" alt="Download of proxmox to hard drive" width="500" height="450">   
