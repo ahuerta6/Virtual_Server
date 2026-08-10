@@ -8,9 +8,9 @@ services:
       - USER_UID=1000
       - USER_GID=1000
       - GITEA__database__DB_TYPE=sqlite3
-      - GITEA__server__DOMAIN=gitea.homelab.local
-      - GITEA__server__ROOT_URL=http://gitea.homelab.local/
-      - GITEA__server__SSH_DOMAIN=gitea.homelab.local
+      - GITEA__server__DOMAIN=gitea.home.arpa
+      - GITEA__server__ROOT_URL=https://gitea.home.arpa/
+      - GITEA__server__SSH_DOMAIN=gitea.home.arpa
       - GITEA__server__SSH_PORT=2222
 
     ports:
