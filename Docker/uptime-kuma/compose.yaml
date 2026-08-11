@@ -1,0 +1,22 @@
+services:
+  uptime-kuma:
+    image: louislam/uptime-kuma:1
+    container_name: uptime-kuma
+    restart: unless-stopped
+
+    environment:
+      - NODE_EXTRA_CA_CERTS=/certs/homelab-root-ca.crt
+
+    volumes:
+      - uptime_kuma_data:/app/data
+      - ./certs/homelab-root-ca.crt:/certs/homelab-root-ca.crt:ro
+
+    networks:
+      - proxy
+
+volumes:
+  uptime_kuma_data:
+
+networks:
+  proxy:
+    external: true

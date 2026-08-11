@@ -7,6 +7,10 @@ services:
       - "80:80"
       - "81:81"
       - "443:443"
+
+    networks:
+      - proxy
+
     volumes:
       - npm_data:/data
       - npm_letsencrypt:/etc/letsencrypt
@@ -14,3 +18,7 @@ services:
 volumes:
   npm_data:
   npm_letsencrypt:
+
+networks:
+  proxy:
+    external: true

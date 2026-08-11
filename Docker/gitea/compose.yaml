@@ -4,6 +4,9 @@ services:
     container_name: gitea
     restart: unless-stopped
 
+    networks:
+      - proxy
+
     environment:
       - USER_UID=1000
       - USER_GID=1000
@@ -14,7 +17,6 @@ services:
       - GITEA__server__SSH_PORT=2222
 
     ports:
-      - "3000:3000"
       - "2222:22"
 
     volumes:
@@ -24,3 +26,7 @@ services:
 
 volumes:
   gitea_data:
+
+networks:
+  proxy:
+    external: true
