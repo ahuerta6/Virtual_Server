@@ -1,0 +1,4 @@
+# Example only. Copy this to /etc/wake-on-lan/devices.conf on Proxmox.
+# Never add real device information to this repository.
+# Format: device-name|MAC-address|broadcast-address
+desktop|AA:BB:CC:DD:EE:FF|192.0.2.255
