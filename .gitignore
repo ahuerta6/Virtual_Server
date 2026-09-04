@@ -55,3 +55,11 @@ Thumbs.db
 *~
 .idea/
 .vscode/
+
+# Wake-on-LAN automation: private configuration and generated files
+automation/devices.conf
+automation/*.local
+automation/*.log
+automation/.env
+automation/.env.*
+!automation/.env.example
