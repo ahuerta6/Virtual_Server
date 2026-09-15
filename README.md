@@ -10,5 +10,4 @@ This Proxmox server is used to host multiple virtual machines for:
 - Malware analysis
 - Windows testing
 - Linux administration
-- macOS virtualization
 - Penetration testing
