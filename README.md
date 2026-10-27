@@ -11,3 +11,9 @@ This Proxmox server is used to host multiple virtual machines for:
 - Windows testing
 - Linux administration
 - Penetration testing
+
+## Local AI
+
+I am building a self-hosted AI environment with Open WebUI, Ollama, and GPU acceleration on Proxmox. This project documents scoped permissions, human approval for infrastructure execution, container boundaries, measured performance, and future plans for durable notes and local document access.
+
+[Explore the Local AI project](Local_AI/README.md)
