@@ -7,6 +7,7 @@ Docker Compose configurations used on my Ubuntu Server in my Proxmox homelab.
 - Portainer
 - Nginx Proxy Manager
 - Gitea
+- [Monitoring](monitoring/README.md)
 
 ## Architecture
 
